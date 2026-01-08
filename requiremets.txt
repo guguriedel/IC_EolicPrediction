@@ -1,0 +1,10 @@
+backoff
+cdsapi
+netCDF4
+fastparquet
+dask[dataframe]
+hvplot
+polars
+seaborn
+matplotlib
+gspread
