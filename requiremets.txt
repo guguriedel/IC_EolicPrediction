@@ -8,3 +8,5 @@ polars
 seaborn
 matplotlib
 gspread
+nbformat
+statsmodels
