@@ -11,3 +11,4 @@ gspread
 nbformat
 statsmodels
 tensorflow
+xgboost
