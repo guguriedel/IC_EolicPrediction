@@ -10,3 +10,4 @@ matplotlib
 gspread
 nbformat
 statsmodels
+tensorflow
