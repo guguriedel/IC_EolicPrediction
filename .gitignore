@@ -2,3 +2,5 @@ guest.py
 .venv
 DADOS
 .claude
+Modelos/*
+nul
