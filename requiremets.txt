@@ -1,6 +1,7 @@
 backoff
 cdsapi
 netCDF4
+h5netcdf
 fastparquet
 dask[dataframe]
 hvplot
@@ -12,3 +13,7 @@ nbformat
 statsmodels
 tensorflow
 xgboost
+scipy
+geopandas
+xarray
+scikit-learn
