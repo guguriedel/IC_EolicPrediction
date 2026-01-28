@@ -1,0 +1,23 @@
+3.2. Diagnóstico Fenomenológico: Por que o LSTM Falhou?
+A análise visual das séries temporais geradas revela a natureza da falha do LSTM.
+
+Sintoma: As previsões do LSTM apresentam-se como linhas suaves, com tendência de crescimento linear monotônica e quase nenhuma variação sazonal intra-anual. O desvio padrão das suas previsões é baixíssimo (419 MWmed).
+
+Causa Raiz: O LSTM sofreu de overfitting na tendência de capacidade. Como a capacidade instalada eólica no Nordeste cresce constantemente, o LSTM "aprendeu" que a estratégia mais segura para minimizar a perda global era prever um crescimento constante. Devido ao problema do vanishing gradient (gradiente desvanecente) em sequências muito longas (48 passos), a rede esqueceu as nuances de alta frequência (sazonalidade mensal) e convergiu para uma regressão na média móvel.
+
+Consequência: O modelo é inútil para a operação. Ele diz "vai ter mais vento ano que vem porque tem mais usinas", mas falha em dizer "vai faltar vento em Fevereiro".
+
+
+3.3. O Triunfo do Mecanismo de Atenção (Informer)
+O Informer, em contraste, exibiu um comportamento radicalmente diferente.
+
+Sintoma: Previsões com alta volatilidade (Desvio Padrão ~1.699 MWmed), apresentando ciclos claros de safra (meio do ano) e entressafra (início/fim do ano).
+
+Mecanismo: Graças ao mecanismo de atenção ProbSparse, o Informer consegue conectar diretamente o ponto de previsão atual com pontos distantes no passado (ex: o mês de agosto de 3 anos atrás) sem perder informação em uma cadeia sequencial. Isso permitiu que ele "entendesse" a física da atmosfera: o vento no Nordeste obedece a ciclos climatológicos rígidos, independentemente do crescimento da capacidade instalada.
+
+Conclusão: O Informer capturou a sazonalidade, enquanto o LSTM capturou apenas a tendência. Para o setor elétrico, a sazonalidade é a variável crítica.
+
+Falar que o ensemble deu errado pq foi constituido de um modelo fodão com 2 modelos bosta
+Além disso o vento foi subestimado em todas os modelos (por uns modelos mais e outros menos) então um ensemble não ajuda tanto,
+quando um modelo consistentemente é o que chega mais proximo e todos erram para o mesmo lado, o ensemble só piora as coisas.
+A velha história do cervo -> Um estatistico sai pra caçar com um caçador, o caçador dá o primeiro tira e erra por 2m a esq.. dps 2 a direita, e o stats grita PEGAMOS ELE! (Isso não ocorre aqui)
