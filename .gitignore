@@ -1,6 +1,8 @@
 guest.py
 .venv
-DADOS
+
+ERA5_Bruto
+Potencia_ONS
 .claude
 
 nul

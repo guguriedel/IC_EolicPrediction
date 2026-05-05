@@ -1,0 +1,41 @@
+{
+  "input": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\dataset_modelagem_limpo.csv",
+  "n_meses_historico": 120,
+  "modelos": {
+    "conservador": "linear_total",
+    "base": "linear_recente",
+    "otimista": "log_linear"
+  },
+  "fit_historico": {
+    "linear_total": {
+      "rmse": 1576.3203548363776,
+      "slope_mw_mes": 197.56302777970694,
+      "slope_mw_ano": 2370.756333356483
+    },
+    "linear_recente": {
+      "rmse": 9582.680134757977,
+      "slope_mw_mes": 381.4404782608695,
+      "slope_mw_ano": 4577.285739130434,
+      "janela_meses": 24
+    },
+    "log_linear": {
+      "rmse": 760.5692960256408,
+      "taxa_anual_pct": 21.11481099628294
+    }
+  },
+  "projecao": {
+    "primeiro_mes": "2025-01-01",
+    "ultimo_mes": "2029-12-01",
+    "n_meses": 60,
+    "cap_historico_ultimo_mw": 28992.9952,
+    "fim_horizonte_mw": {
+      "conservador": 37205.09960300832,
+      "base": 52194.7102289855,
+      "otimista": 79190.63503186849
+    }
+  },
+  "outputs": {
+    "csv": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\capacidade_projetada_ne.csv",
+    "png": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\capacidade_projetada_ne.png"
+  }
+}

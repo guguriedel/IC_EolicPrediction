@@ -1,0 +1,41 @@
+{
+  "fontes": {
+    "nino34_anom": {
+      "url": "https://psl.noaa.gov/data/correlation/nina34.anom.data",
+      "ok": true,
+      "n": 195
+    },
+    "amm_sst": {
+      "url": "https://psl.noaa.gov/data/timeseries/monthly/AMM/ammsst.data",
+      "ok": true,
+      "n": 180
+    },
+    "ibc_br": {
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24364/dados?formato=json",
+      "ok": true,
+      "n": 194
+    }
+  },
+  "linhas": 204,
+  "periodo": {
+    "nino34_anom": [
+      "2010-01-01",
+      "2026-12-01"
+    ],
+    "amm_sst": [
+      "2010-01-01",
+      "2024-12-01"
+    ],
+    "ibc_br": [
+      "2010-01-01",
+      "2026-02-01"
+    ]
+  },
+  "colunas": [
+    "data",
+    "nino34_anom",
+    "amm_sst",
+    "ibc_br"
+  ],
+  "out_csv": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\features_macro.csv"
+}
