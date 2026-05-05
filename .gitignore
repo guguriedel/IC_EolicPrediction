@@ -4,3 +4,16 @@ DADOS
 .claude
 Modelos/*
 nul
+
+# Credenciais — NUNCA commitar
+.cdsapirc
+*.env
+*.pem
+*.key
+secrets.json
+
+# Artefatos Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
