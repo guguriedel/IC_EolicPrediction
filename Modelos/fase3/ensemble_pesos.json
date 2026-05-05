@@ -1,0 +1,26 @@
+{
+  "candidatos": [
+    "Integrado_Fase2",
+    "Sazonal_Naive"
+  ],
+  "pesos_ls_insample": {
+    "Integrado_Fase2": 0.5,
+    "Sazonal_Naive": 0.5
+  },
+  "pesos_loo_medios": {
+    "Integrado_Fase2": 0.49442489942251044,
+    "Sazonal_Naive": 0.5055751005774896
+  },
+  "metricas_ls_insample": {
+    "RMSE": 1160.6655874284986,
+    "MAE": 995.6525505747084,
+    "Bias": -268.04310862067473,
+    "MAPE": 9.58438128321295
+  },
+  "metricas_loo": {
+    "RMSE": 1180.0291323417712,
+    "MAE": 1019.8210181880522,
+    "Bias": -252.81367122100278,
+    "MAPE": 9.827163166738973
+  }
+}

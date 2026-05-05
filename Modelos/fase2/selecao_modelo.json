@@ -1,0 +1,25 @@
+{
+  "arquitetura_vencedora": "integrado",
+  "seed_vencedora": 42,
+  "criterio": "menor val_rmse mediano (5 seeds)",
+  "hp": {
+    "L": 24,
+    "H": 12,
+    "cnn_filters": 32,
+    "cnn_kernel": 3,
+    "lstm_units": 32,
+    "d_model": 32,
+    "n_heads": 4,
+    "ff_dim": 64,
+    "dropout": 0.15,
+    "lr": 0.001,
+    "batch_size": 16,
+    "max_epochs": 200
+  },
+  "split": {
+    "fim_treino": "2022-12-01",
+    "fim_val": "2023-12-01"
+  },
+  "cenario_capacidade": "conservador",
+  "n_features": 96
+}
