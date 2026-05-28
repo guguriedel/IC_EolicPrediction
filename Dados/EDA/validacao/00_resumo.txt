@@ -1,0 +1,23 @@
+
+================================================================================
+RESUMO DA EDA - DATASET COM CLUSTERING ESPACIAL
+================================================================================
+
+Dataset: C:\Users\gustavo.riedel\Documents\PUC\IC\IC_EolicPrediction\Dados\dataset_final_modelagem.csv
+Dimensoes: 120 linhas x 96 colunas
+Periodo: 2015-01 a 2024-12
+
+CLUSTERING ESPACIAL:
+  - Clusters: 10
+  - Reducao: 225 celulas -> 10 clusters
+
+TARGET: geracao_eolica_ne_mwmed
+  - Media: 6051.04 MWmed
+  - Desvio: 3461.17 MWmed
+
+CORRELACOES:
+  - Vento regional vs Geracao: 0.264
+  - Melhor cluster: lat11.0S_lon38.8W (r=0.848)
+  - Capacidade vs Geracao: 0.877
+
+================================================================================

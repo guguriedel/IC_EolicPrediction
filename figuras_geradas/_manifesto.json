@@ -1,0 +1,267 @@
+{
+  "geradas": [
+    {
+      "id": "F-2.1.1",
+      "titulo": "Crescimento da geracao eolica NE",
+      "secao": "§2.1",
+      "arquivo": "figuras_geradas/F-2.1.1.png"
+    },
+    {
+      "id": "F-2.3.1",
+      "titulo": "Mapa NE com clusters ERA5 e parques",
+      "secao": "§2.3",
+      "arquivo": "figuras_geradas/F-2.3.1.png"
+    },
+    {
+      "id": "F-2.3.2",
+      "titulo": "Timeline das fontes de dados",
+      "secao": "§2.3",
+      "arquivo": "figuras_geradas/F-2.3.2.png"
+    },
+    {
+      "id": "F-2.3.3",
+      "titulo": "Matriz de correlacao Pearson",
+      "secao": "§2.3",
+      "arquivo": "figuras_geradas/F-2.3.3.png"
+    },
+    {
+      "id": "F-2.3.4",
+      "titulo": "Distribuicao mensal exogenas",
+      "secao": "§2.3",
+      "arquivo": "figuras_geradas/F-2.3.4.png"
+    },
+    {
+      "id": "F-3.1.0",
+      "titulo": "Complexidade dos modelos",
+      "secao": "§3.1",
+      "arquivo": "figuras_geradas/F-3.1.0.png"
+    },
+    {
+      "id": "F-3.1.bloco",
+      "titulo": "Diagrama da arquitetura integrada",
+      "secao": "§3.1-3.2",
+      "arquivo": "figuras_geradas/F-3.1.bloco.png"
+    },
+    {
+      "id": "F-3.1.5.1",
+      "titulo": "Climatologia mensal do FC",
+      "secao": "§3.1.5",
+      "arquivo": "figuras_geradas/F-3.1.5.1.png"
+    },
+    {
+      "id": "F-3.1.5.2",
+      "titulo": "Heatmap ano x mes do FC",
+      "secao": "§3.1.5",
+      "arquivo": "figuras_geradas/F-3.1.5.2.png"
+    },
+    {
+      "id": "F-3.3.1",
+      "titulo": "Geracao absoluta vs FC (V1)",
+      "secao": "§3.3",
+      "arquivo": "figuras_geradas/F-3.3.1.png"
+    },
+    {
+      "id": "F-3.3.2",
+      "titulo": "Decomposicao STL do FC",
+      "secao": "§3.3",
+      "arquivo": "figuras_geradas/F-3.3.2.png"
+    },
+    {
+      "id": "F-3.3.3",
+      "titulo": "Histograma + densidade FC",
+      "secao": "§3.3",
+      "arquivo": "figuras_geradas/F-3.3.3.png"
+    },
+    {
+      "id": "F-3.4.1",
+      "titulo": "3 cenarios de capacidade (V2)",
+      "secao": "§3.4",
+      "arquivo": "figuras_geradas/F-3.4.1.png"
+    },
+    {
+      "id": "F-3.4.2",
+      "titulo": "RMSE dos 3 cenarios",
+      "secao": "§3.4",
+      "arquivo": "figuras_geradas/F-3.4.2.png"
+    },
+    {
+      "id": "F-3.5.1",
+      "titulo": "Feature -> regra de projecao",
+      "secao": "§3.5",
+      "arquivo": "figuras_geradas/F-3.5.1.png"
+    },
+    {
+      "id": "F-3.5.2",
+      "titulo": "Exemplo de feature projetada",
+      "secao": "§3.5",
+      "arquivo": "figuras_geradas/F-3.5.2.png"
+    },
+    {
+      "id": "F-4.1.1",
+      "titulo": "Vazamento vs higienizado",
+      "secao": "§4.1",
+      "arquivo": "figuras_geradas/F-4.1.1.png"
+    },
+    {
+      "id": "F-4.2.1",
+      "titulo": "Diagrama de Rolling Origin",
+      "secao": "§4.2",
+      "arquivo": "figuras_geradas/F-4.2.1.png"
+    },
+    {
+      "id": "F-4.3.1",
+      "titulo": "Huber vs MSE vs MAE",
+      "secao": "§4.3",
+      "arquivo": "figuras_geradas/F-4.3.1.png"
+    },
+    {
+      "id": "F-5.2.1",
+      "titulo": "Sazonal Naive 3 cenarios x Real",
+      "secao": "§5.2",
+      "arquivo": "figuras_geradas/F-5.2.1.png"
+    },
+    {
+      "id": "F-5.2.2",
+      "titulo": "Erro acumulado Sazonal",
+      "secao": "§5.2",
+      "arquivo": "figuras_geradas/F-5.2.2.png"
+    },
+    {
+      "id": "F-5.3.1",
+      "titulo": "Boxplot 5 seeds x 3 arquiteturas (V5)",
+      "secao": "§5.3",
+      "arquivo": "figuras_geradas/F-5.3.1.png"
+    },
+    {
+      "id": "F-5.3.3",
+      "titulo": "Integrado x Sazonal x Real",
+      "secao": "§5.3",
+      "arquivo": "figuras_geradas/F-5.3.3.png"
+    },
+    {
+      "id": "F-5.4.1",
+      "titulo": "Pesos do ensemble (V9)",
+      "secao": "§5.4",
+      "arquivo": "figuras_geradas/F-5.4.1.png"
+    },
+    {
+      "id": "F-5.4.2",
+      "titulo": "Bias componentes vs ensemble",
+      "secao": "§5.4",
+      "arquivo": "figuras_geradas/F-5.4.2.png"
+    },
+    {
+      "id": "F-5.4.3",
+      "titulo": "Diagnostico ensemble (3 paineis)",
+      "secao": "§5.4",
+      "arquivo": "figuras_geradas/F-5.4.3.png"
+    },
+    {
+      "id": "F-5.5.1",
+      "titulo": "RMSE por bucket (V7)",
+      "secao": "§5.5",
+      "arquivo": "figuras_geradas/F-5.5.1.png"
+    },
+    {
+      "id": "F-5.5.2",
+      "titulo": "MAE por bucket",
+      "secao": "§5.5",
+      "arquivo": "figuras_geradas/F-5.5.2.png"
+    },
+    {
+      "id": "F-5.5.3",
+      "titulo": "Erro vs horizonte continuo",
+      "secao": "§5.5",
+      "arquivo": "figuras_geradas/F-5.5.3.png"
+    },
+    {
+      "id": "F-5.6.1",
+      "titulo": "Forecast 60m com IC conformal (V8)",
+      "secao": "§5.6",
+      "arquivo": "figuras_geradas/F-5.6.1.png"
+    },
+    {
+      "id": "F-5.6.2",
+      "titulo": "Histograma residuos conformal",
+      "secao": "§5.6",
+      "arquivo": "figuras_geradas/F-5.6.2.png"
+    },
+    {
+      "id": "F-5.6.3",
+      "titulo": "Cobertura empirica movel",
+      "secao": "§5.6",
+      "arquivo": "figuras_geradas/F-5.6.3.png"
+    },
+    {
+      "id": "F-5.7.1",
+      "titulo": "Barras RMSE/MAE/Bias/MAPE consolidado",
+      "secao": "§5.7",
+      "arquivo": "figuras_geradas/F-5.7.1.png"
+    },
+    {
+      "id": "F-5.7.2",
+      "titulo": "Todos modelos vs Real (V6)",
+      "secao": "§5.7",
+      "arquivo": "figuras_geradas/F-5.7.2.png"
+    },
+    {
+      "id": "F-5.8.1",
+      "titulo": "Comparacao casada serie 60m",
+      "secao": "§5.8",
+      "arquivo": "figuras_geradas/F-5.8.1.png"
+    },
+    {
+      "id": "F-5.8.2",
+      "titulo": "Zoom 16m casado",
+      "secao": "§5.8",
+      "arquivo": "figuras_geradas/F-5.8.2.png"
+    },
+    {
+      "id": "F-5.8.3",
+      "titulo": "Residuos casados",
+      "secao": "§5.8",
+      "arquivo": "figuras_geradas/F-5.8.3.png"
+    },
+    {
+      "id": "F-5.8.4",
+      "titulo": "Scatter casado",
+      "secao": "§5.8",
+      "arquivo": "figuras_geradas/F-5.8.4.png"
+    },
+    {
+      "id": "F-5.8.5",
+      "titulo": "Divergencia 60m casada",
+      "secao": "§5.8",
+      "arquivo": "figuras_geradas/F-5.8.5.png"
+    }
+  ],
+  "puladas": [
+    {
+      "id": "F-4.2.2",
+      "titulo": "Curva loss train/val (V4)",
+      "motivo": "historico_seed42.json nao persistido em fase2"
+    },
+    {
+      "id": "F-3.2.2",
+      "titulo": "Mecanismo de gating em acao",
+      "motivo": "pesos do gating nao salvos durante inferencia"
+    },
+    {
+      "id": "F-5.1.1",
+      "titulo": "Heatmap erro NEWAVE deck x mes",
+      "motivo": "planilha NEWAVE (deck x mes x erro) nao esta no projeto"
+    },
+    {
+      "id": "F-5.1.2",
+      "titulo": "Boxplot erro NEWAVE por horizonte",
+      "motivo": "planilha NEWAVE (deck x mes x erro) nao esta no projeto"
+    },
+    {
+      "id": "F-5.1.3",
+      "titulo": "Convergencia dos decks NEWAVE",
+      "motivo": "planilha NEWAVE (deck x mes x erro) nao esta no projeto"
+    }
+  ],
+  "pasta_saida": "figuras_geradas",
+  "data_geracao": "2026-05-22T10:38:46.514877"
+}

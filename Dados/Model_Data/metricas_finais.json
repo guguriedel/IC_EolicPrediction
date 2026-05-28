@@ -1,0 +1,33 @@
+{
+  "CNN": {
+    "RMSE": 198271.2757899576,
+    "MAE": 165245.90231623448
+  },
+  "LSTM": {
+    "RMSE": 5030.428016697755,
+    "MAE": 4299.880865468296
+  },
+  "Informer": {
+    "RMSE": 5773.579866898204,
+    "MAE": 5080.127271579261
+  },
+  "Ensemble_Weighted": {
+    "RMSE": 55916.504170245564,
+    "MAE": 47231.31772625425
+  },
+  "weights": {
+    "cnn": 0.2750134879970794,
+    "lstm": 0.30939926453606276,
+    "informer": 0.4155872474668578
+  },
+  "informer_config": {
+    "seq_len": 24,
+    "label_len": 12,
+    "pred_len": 12,
+    "architecture": "ProbSparse + Distilling"
+  },
+  "Ensemble_Stacking": {
+    "RMSE": 4121.09807743513,
+    "MAE": 3449.335967741465
+  }
+}

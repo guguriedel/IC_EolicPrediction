@@ -1,5 +1,5 @@
 {
-  "input": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\dataset_modelagem_limpo.csv",
+  "input": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\dataset_modelagem_limpo.csv",
   "n_meses_historico": 120,
   "modelos": {
     "conservador": "linear_total",
@@ -35,7 +35,7 @@
     }
   },
   "outputs": {
-    "csv": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\capacidade_projetada_ne.csv",
-    "png": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\capacidade_projetada_ne.png"
+    "csv": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\capacidade_projetada_ne.csv",
+    "png": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\capacidade_projetada_ne.png"
   }
 }

@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-05-22T10:36:32.461068",
+  "versao_pipeline": "v2.0_tcc_proof",
+  "verificacoes": [
+    {
+      "item": "Split Temporal",
+      "descricao": "Verificar que treino/val/teste s\u00e3o cronologicamente separados",
+      "status": "OK",
+      "detalhes": {
+        "periodo_dados": {
+          "inicio": "2015-01-01 00:00:00",
+          "fim": "2024-12-01 00:00:00",
+          "meses": 120
+        },
+        "ordenacao_cronologica": true
+      }
+    },
+    {
+      "item": "Features Futuras",
+      "descricao": "Verificar que features futuras em cen\u00e1rios s\u00e3o projetadas (n\u00e3o observadas)",
+      "status": "OK",
+      "detalhes": {
+        "erro": "Classifica\u00e7\u00e3o de features n\u00e3o dispon\u00edvel"
+      }
+    },
+    {
+      "item": "Cen\u00e1rios de Proje\u00e7\u00e3o",
+      "descricao": "Verificar que cen\u00e1rios futuros usam hip\u00f3teses documentadas",
+      "status": "ALERTA",
+      "detalhes": {
+        "erro": "Configura\u00e7\u00e3o de cen\u00e1rios n\u00e3o dispon\u00edvel"
+      }
+    },
+    {
+      "item": "Backtesting",
+      "descricao": "Verificar que backtesting respeita causalidade temporal",
+      "status": "OK",
+      "detalhes": {
+        "metodologia": "Janela m\u00f3vel com cutoff claro",
+        "convencao_cutoff": "cutoff_idx = \u00faltimo \u00edndice do TREINO",
+        "sem_vazamento_validacao": "Valida\u00e7\u00e3o usa apenas dados ap\u00f3s treino",
+        "sem_vazamento_teste": "Teste usa apenas dados ap\u00f3s valida\u00e7\u00e3o"
+      }
+    },
+    {
+      "item": "Backtesting 60 Meses",
+      "descricao": "Verificar metodologia do backtesting de longo prazo",
+      "status": "OK",
+      "detalhes": {
+        "executado": false,
+        "motivo": "Dados insuficientes ou n\u00e3o executado"
+      }
+    },
+    {
+      "item": "Configura\u00e7\u00e3o Final",
+      "descricao": "Par\u00e2metros da configura\u00e7\u00e3o vencedora",
+      "status": "OK",
+      "detalhes": {
+        "lookback": 24,
+        "horizonte": 12,
+        "janela_treino": 60,
+        "modelo_selecionado_h_curto": "Informer",
+        "modelo_selecionado_60m": null,
+        "n_features": 67,
+        "target": "geracao_eolica_ne_mwmed"
+      }
+    }
+  ],
+  "alertas": [],
+  "status": "ALERTA (1 itens)"
+}

@@ -1,12 +1,12 @@
 {
-  "input": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\dataset_final_modelagem.csv",
+  "input": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\dataset_final_modelagem.csv",
   "linhas": 120,
   "colunas_originais": 95,
   "periodo": [
     "2015-01-01",
     "2024-12-01"
   ],
-  "diagnostico_path": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\dataset_diagnostico_completo.csv",
+  "diagnostico_path": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\dataset_diagnostico_completo.csv",
   "fc_ne_stats": {
     "min": 0.18917701677219523,
     "max": 0.6886527910935869,
@@ -57,7 +57,7 @@
   },
   "calendario_ciclico_adicionado": true,
   "macro_merge": {
-    "fonte": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\features_macro.csv",
+    "fonte": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\features_macro.csv",
     "colunas_adicionadas": [
       "nino34_anom",
       "amm_sst",
@@ -106,7 +106,7 @@
     "nino34_lag_12": 12
   },
   "nan_restante_total": 140,
-  "limpo_path": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\dataset_modelagem_limpo.csv",
+  "limpo_path": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\dataset_modelagem_limpo.csv",
   "limpo_linhas": 120,
   "limpo_colunas": 103
 }

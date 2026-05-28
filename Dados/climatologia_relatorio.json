@@ -1,5 +1,5 @@
 {
-  "input": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\dataset_modelagem_limpo.csv",
+  "input": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\dataset_modelagem_limpo.csv",
   "n_features_meteorologicas": 63,
   "features": [
     "vel_vento_100m_lat3.7S_lon41.1W",
@@ -68,7 +68,7 @@
   ],
   "n_meses_amostras": 12,
   "n_anos_amostras": 10,
-  "output": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\climatologia_mensal_meteo.csv",
+  "output": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\climatologia_mensal_meteo.csv",
   "exemplo_jan_vento": [
     {
       "mes": 1,

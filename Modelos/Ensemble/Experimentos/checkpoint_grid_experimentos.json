@@ -1,0 +1,421 @@
+{
+  "ALL_RESULTS_summary": {
+    "fase1": {
+      "L12_H12_W48": {
+        "L": 12,
+        "H": 12,
+        "W": 48,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H12_W60": {
+        "L": 12,
+        "H": 12,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H12_W72": {
+        "L": 12,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H12_W84": {
+        "L": 12,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W48": {
+        "L": 12,
+        "H": 24,
+        "W": 48,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W60": {
+        "L": 12,
+        "H": 24,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W72": {
+        "L": 12,
+        "H": 24,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W48": {
+        "L": 24,
+        "H": 12,
+        "W": 48,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W60": {
+        "L": 24,
+        "H": 12,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W72": {
+        "L": 24,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W84": {
+        "L": 24,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H24_W60": {
+        "L": 24,
+        "H": 24,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H24_W72": {
+        "L": 24,
+        "H": 24,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L48_H12_W72": {
+        "L": 48,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L48_H12_W84": {
+        "L": 48,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L60_H12_W84": {
+        "L": 60,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      }
+    },
+    "fase2": {
+      "L12_H12_W48": {
+        "L": 12,
+        "H": 12,
+        "W": 48,
+        "n_rodadas": 10,
+        "erro": null
+      },
+      "L12_H12_W60": {
+        "L": 12,
+        "H": 12,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H12_W72": {
+        "L": 12,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H12_W84": {
+        "L": 12,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W48": {
+        "L": 12,
+        "H": 24,
+        "W": 48,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W60": {
+        "L": 12,
+        "H": 24,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W72": {
+        "L": 12,
+        "H": 24,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W48": {
+        "L": 24,
+        "H": 12,
+        "W": 48,
+        "n_rodadas": 10,
+        "erro": null
+      },
+      "L24_H12_W60": {
+        "L": 24,
+        "H": 12,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W72": {
+        "L": 24,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W84": {
+        "L": 24,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H24_W60": {
+        "L": 24,
+        "H": 24,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H24_W72": {
+        "L": 24,
+        "H": 24,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L48_H12_W72": {
+        "L": 48,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L48_H12_W84": {
+        "L": 48,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L60_H12_W84": {
+        "L": 60,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      }
+    },
+    "fase3": {
+      "L12_H12_W48": {
+        "L": 12,
+        "H": 12,
+        "W": 48,
+        "n_rodadas": 25,
+        "erro": null
+      },
+      "L12_H12_W60": {
+        "L": 12,
+        "H": 12,
+        "W": 60,
+        "n_rodadas": 13,
+        "erro": null
+      },
+      "L12_H12_W72": {
+        "L": 12,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H12_W84": {
+        "L": 12,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W48": {
+        "L": 12,
+        "H": 24,
+        "W": 48,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W60": {
+        "L": 12,
+        "H": 24,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L12_H24_W72": {
+        "L": 12,
+        "H": 24,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W48": {
+        "L": 24,
+        "H": 12,
+        "W": 48,
+        "n_rodadas": 25,
+        "erro": null
+      },
+      "L24_H12_W60": {
+        "L": 24,
+        "H": 12,
+        "W": 60,
+        "n_rodadas": 13,
+        "erro": null
+      },
+      "L24_H12_W72": {
+        "L": 24,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H12_W84": {
+        "L": 24,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H24_W60": {
+        "L": 24,
+        "H": 24,
+        "W": 60,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L24_H24_W72": {
+        "L": 24,
+        "H": 24,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L48_H12_W72": {
+        "L": 48,
+        "H": 12,
+        "W": 72,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L48_H12_W84": {
+        "L": 48,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      },
+      "L60_H12_W84": {
+        "L": 60,
+        "H": 12,
+        "W": 84,
+        "n_rodadas": 0,
+        "erro": null
+      }
+    }
+  },
+  "config": {
+    "lookbacks": [
+      12,
+      24,
+      48,
+      60
+    ],
+    "horizontes": [
+      12,
+      24
+    ],
+    "janelas_treino": [
+      48,
+      60,
+      72,
+      84
+    ],
+    "combinacoes_validas": 16,
+    "passo": 1
+  },
+  "best_global": {
+    "L": 24,
+    "H": 12,
+    "W": 60,
+    "model": "Informer",
+    "config_key": "L24_H12_W60"
+  },
+  "best_per_model": {
+    "CNN": {
+      "L": 12,
+      "H": 12,
+      "W": 48,
+      "config_key": "L12_H12_W48",
+      "RMSE_medio": 2765.5269097117907,
+      "RMSE_std": 540.3575203182095,
+      "score": 3035.7056698708957
+    },
+    "LSTM": {
+      "L": 12,
+      "H": 12,
+      "W": 48,
+      "config_key": "L12_H12_W48",
+      "RMSE_medio": 3232.2486144532513,
+      "RMSE_std": 424.9565458378434,
+      "score": 3444.726887372173
+    },
+    "Informer": {
+      "L": 24,
+      "H": 12,
+      "W": 60,
+      "config_key": "L24_H12_W60",
+      "RMSE_medio": 2168.875084501039,
+      "RMSE_std": 633.0321895747876,
+      "score": 2485.391179288433
+    },
+    "Ensemble": {
+      "L": 24,
+      "H": 12,
+      "W": 48,
+      "config_key": "L24_H12_W48",
+      "RMSE_medio": 2596.5249085804676,
+      "RMSE_std": 624.5024139871839,
+      "score": 2908.7761155740595
+    }
+  },
+  "best_per_horizon": {
+    "12": {
+      "L": 24,
+      "W": 60,
+      "modelo": "Informer",
+      "config_key": "L24_H12_W60",
+      "RMSE_medio": 2168.875084501039,
+      "score": 2485.391179288433
+    }
+  }
+}

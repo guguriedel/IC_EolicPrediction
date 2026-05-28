@@ -5,7 +5,6 @@ import random
 
 
 def configurar_ambiente_determinismo() -> None:
-    """DEVE ser chamado ANTES de qualquer `import tensorflow`."""
     os.environ.setdefault("TF_DETERMINISTIC_OPS", "1")
     os.environ.setdefault("TF_CUDNN_DETERMINISTIC", "1")
     os.environ.setdefault("PYTHONHASHSEED", "42")

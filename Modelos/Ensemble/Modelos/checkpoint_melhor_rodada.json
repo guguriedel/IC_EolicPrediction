@@ -1,0 +1,139 @@
+{
+  "fase": "fase3",
+  "config_key": "L24_H12_W60",
+  "L": 24,
+  "H": 12,
+  "W": 60,
+  "rodada_idx": 12,
+  "cutoff_idx": 71,
+  "cutoff_date": "2020-12-01 00:00:00",
+  "metricas_teste": {
+    "CNN": {
+      "RMSE_medio": 3846.9498183354335,
+      "MAE_medio": 3846.9498183354335
+    },
+    "LSTM": {
+      "RMSE_medio": 4141.788543107569,
+      "MAE_medio": 4141.788543107569
+    },
+    "Informer": {
+      "RMSE_medio": 2350.136572662284,
+      "MAE_medio": 2350.136572662284
+    },
+    "Ensemble": {
+      "RMSE_medio": 3149.0795459356336,
+      "MAE_medio": 3149.0795459356336
+    }
+  },
+  "ensemble_weights": {
+    "CNN": 0.292036648093215,
+    "LSTM": 0.22620218933672773,
+    "Informer": 0.4817611625700573
+  },
+  "block_metrics": {
+    "CNN": [
+      {
+        "bloco": "curto_1_3",
+        "h_inicio": 1,
+        "h_fim": 3,
+        "RMSE_medio": 2224.1548357093875,
+        "MAE_medio": 2224.1548357093875,
+        "MAPE_medio": 36.22636696164696
+      },
+      {
+        "bloco": "medio_curto_4_6",
+        "h_inicio": 4,
+        "h_fim": 6,
+        "RMSE_medio": 2507.8079084017154,
+        "MAE_medio": 2507.8079084017154,
+        "MAPE_medio": 35.34424235908367
+      },
+      {
+        "bloco": "medio_7_12",
+        "h_inicio": 7,
+        "h_fim": 12,
+        "RMSE_medio": 5327.918264615316,
+        "MAE_medio": 5327.918264615316,
+        "MAPE_medio": 52.14117495245756
+      }
+    ],
+    "LSTM": [
+      {
+        "bloco": "curto_1_3",
+        "h_inicio": 1,
+        "h_fim": 3,
+        "RMSE_medio": 1938.5043637041792,
+        "MAE_medio": 1938.5043637041792,
+        "MAPE_medio": 31.812554162849683
+      },
+      {
+        "bloco": "medio_curto_4_6",
+        "h_inicio": 4,
+        "h_fim": 6,
+        "RMSE_medio": 2889.171026891299,
+        "MAE_medio": 2889.171026891299,
+        "MAPE_medio": 40.430069988047194
+      },
+      {
+        "bloco": "medio_7_12",
+        "h_inicio": 7,
+        "h_fim": 12,
+        "RMSE_medio": 5869.739390917399,
+        "MAE_medio": 5869.739390917399,
+        "MAPE_medio": 56.22971732975236
+      }
+    ],
+    "Informer": [
+      {
+        "bloco": "curto_1_3",
+        "h_inicio": 1,
+        "h_fim": 3,
+        "RMSE_medio": 869.4702123917892,
+        "MAE_medio": 869.4702123917892,
+        "MAPE_medio": 13.998199992029862
+      },
+      {
+        "bloco": "medio_curto_4_6",
+        "h_inicio": 4,
+        "h_fim": 6,
+        "RMSE_medio": 1674.7732404329654,
+        "MAE_medio": 1674.7732404329654,
+        "MAPE_medio": 23.405857889886168
+      },
+      {
+        "bloco": "medio_7_12",
+        "h_inicio": 7,
+        "h_fim": 12,
+        "RMSE_medio": 3428.1514189121913,
+        "MAE_medio": 3428.1514189121913,
+        "MAPE_medio": 31.327568432933628
+      }
+    ],
+    "Ensemble": [
+      {
+        "bloco": "curto_1_3",
+        "h_inicio": 1,
+        "h_fim": 3,
+        "RMSE_medio": 1333.077790870953,
+        "MAE_medio": 1333.077790870953,
+        "MAPE_medio": 21.358492653136647
+      },
+      {
+        "bloco": "medio_curto_4_6",
+        "h_inicio": 4,
+        "h_fim": 6,
+        "RMSE_medio": 2192.749295984796,
+        "MAE_medio": 2192.749295984796,
+        "MAPE_medio": 30.743217213152644
+      },
+      {
+        "bloco": "medio_7_12",
+        "h_inicio": 7,
+        "h_fim": 12,
+        "RMSE_medio": 4535.245548443391,
+        "MAE_medio": 4535.245548443391,
+        "MAPE_medio": 43.03882537336195
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "modelo_vencedor": "Informer",
+  "tipo": "Componente",
+  "rmse_teste": 2168.875084501039,
+  "config_vencedor": "L24_H12_W60",
+  "data_selecao": "2026-05-22 10:38:11.797478",
+  "fonte_selecao": "configuracao_final.json (grid/backtesting Fase 3)",
+  "ranking_completo": [
+    {
+      "Modelo": "Informer",
+      "Tipo": "Componente",
+      "RMSE": 2168.875084501039,
+      "RMSE_std": 633.0321895747876,
+      "Config": "L24_H12_W60",
+      "Score": 2485.391179288433
+    },
+    {
+      "Modelo": "XGBoost",
+      "Tipo": "Baseline",
+      "RMSE": 2440.9247387780547,
+      "RMSE_std": 0.0,
+      "Config": "default",
+      "Score": 2440.9247387780547
+    },
+    {
+      "Modelo": "Ensemble",
+      "Tipo": "Ensemble",
+      "RMSE": 2596.5249085804676,
+      "RMSE_std": 624.5024139871839,
+      "Config": "L24_H12_W48",
+      "Score": 2908.7761155740595
+    },
+    {
+      "Modelo": "CNN",
+      "Tipo": "Componente",
+      "RMSE": 2765.5269097117907,
+      "RMSE_std": 540.3575203182095,
+      "Config": "L12_H12_W48",
+      "Score": 3035.7056698708957
+    },
+    {
+      "Modelo": "LSTM",
+      "Tipo": "Componente",
+      "RMSE": 3232.2486144532513,
+      "RMSE_std": 424.9565458378434,
+      "Config": "L12_H12_W48",
+      "Score": 3444.726887372173
+    }
+  ],
+  "arquivos_modelo": [
+    "modelo_final_tcc.keras",
+    "scalers_finais.pkl"
+  ],
+  "configuracao": {
+    "L": 24,
+    "H": 12,
+    "W": 60,
+    "config_key": "L24_H12_W60",
+    "RMSE_medio": 2168.875084501039,
+    "RMSE_std": 633.0321895747876,
+    "score": 2485.391179288433,
+    "ensemble_weights": {
+      "CNN": 0.1969325593531628,
+      "LSTM": 0.15257250752589266,
+      "Informer": 0.6504949331209445
+    }
+  }
+}

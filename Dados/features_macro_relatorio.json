@@ -3,7 +3,7 @@
     "nino34_anom": {
       "url": "https://psl.noaa.gov/data/correlation/nina34.anom.data",
       "ok": true,
-      "n": 195
+      "n": 196
     },
     "amm_sst": {
       "url": "https://psl.noaa.gov/data/timeseries/monthly/AMM/ammsst.data",
@@ -13,7 +13,7 @@
     "ibc_br": {
       "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24364/dados?formato=json",
       "ok": true,
-      "n": 194
+      "n": 195
     }
   },
   "linhas": 204,
@@ -28,7 +28,7 @@
     ],
     "ibc_br": [
       "2010-01-01",
-      "2026-02-01"
+      "2026-03-01"
     ]
   },
   "colunas": [
@@ -37,5 +37,5 @@
     "amm_sst",
     "ibc_br"
   ],
-  "out_csv": "C:\\Users\\Admin\\Documents\\Puc\\IC\\Dados\\features_macro.csv"
+  "out_csv": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Dados\\features_macro.csv"
 }

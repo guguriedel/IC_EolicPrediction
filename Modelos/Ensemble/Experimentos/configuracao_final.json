@@ -1,0 +1,34 @@
+{
+  "best_config_key": "L24_H12_W60",
+  "best_L": 24,
+  "best_H": 12,
+  "best_W": 60,
+  "best_model": "Informer",
+  "best_rmse": 2168.875084501039,
+  "best_score_robustez": 2485.391179288433,
+  "ensemble_weights": {
+    "CNN": 0.1969325593531628,
+    "LSTM": 0.15257250752589266,
+    "Informer": 0.6504949331209445
+  },
+  "grid_config": {
+    "lookbacks_testados": [
+      12,
+      24,
+      48,
+      60
+    ],
+    "horizontes_testados": [
+      12,
+      24
+    ],
+    "janelas_testadas": [
+      48,
+      60,
+      72,
+      84
+    ],
+    "total_combinacoes_validas": 16
+  },
+  "data_experimento": "2026-05-22 10:36:32.024141"
+}

@@ -1,0 +1,14 @@
+{
+  "data_analise": "2026-05-22 10:38:13.958478",
+  "n_modelos": 5,
+  "modelos": [
+    "CNN",
+    "LSTM",
+    "INFORMER",
+    "ENSEMBLE",
+    "XGBOOST"
+  ],
+  "horizonte_nativo": 12,
+  "horizonte_longo": 60,
+  "total_previsoes": 792
+}

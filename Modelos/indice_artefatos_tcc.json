@@ -1,0 +1,31 @@
+{
+  "artefato_principal": {
+    "diretorio": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Modelos\\TCC_Modelo_Final",
+    "modelo": "Informer",
+    "descricao": "Modelo final selecionado para o TCC"
+  },
+  "artefatos_secundarios": [
+    {
+      "diretorio": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Modelos\\Ensemble\\Modelos",
+      "modelos": [
+        "CNN",
+        "LSTM",
+        "Informer"
+      ],
+      "descricao": "Componentes do Ensemble para comparacao"
+    },
+    {
+      "diretorio": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Modelos\\XGBoost",
+      "modelo": "XGBoost",
+      "descricao": "Baseline para comparacao"
+    }
+  ],
+  "checkpoints": {
+    "ensemble": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Modelos\\Ensemble\\Modelos\\checkpoint_melhor_rodada.json",
+    "descricao": "Checkpoint da melhor rodada do backtesting"
+  },
+  "configuracoes": {
+    "ensemble": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Modelos\\Ensemble\\Experimentos\\configuracao_final.json",
+    "xgboost": "C:\\Users\\gustavo.riedel\\Documents\\PUC\\IC\\IC_EolicPrediction\\Modelos\\XGBoost\\configuracao_xgboost.json"
+  }
+}
